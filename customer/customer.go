@@ -1,5 +1,7 @@
 package types
 
+//customer/customer.go
+
 import (
 	"time"
 )
