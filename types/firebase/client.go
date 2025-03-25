@@ -5,15 +5,9 @@ import (
 	"fmt"
 	"log"
 
-	"cloud.google.com/go/firestore"
 	firebase "firebase.google.com/go"
 	"google.golang.org/api/option"
 )
-
-type FirebaseDBClient struct {
-    DB  *firestore.Client
-}
-
 
 // NewFirebaseClient initializes Firebase and Firestore using a service account JSON file
 func NewFirebaseClient() *FirebaseDBClient {
