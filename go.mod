@@ -1,4 +1,4 @@
-module github.com/definedhomeservices/types
+module github.com/DefinedHomeServices/types
 
 go 1.23.3
 
