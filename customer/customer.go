@@ -1,4 +1,4 @@
-package types
+package customer
 
 //customer/customer.go
 
